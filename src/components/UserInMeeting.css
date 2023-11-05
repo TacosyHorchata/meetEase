@@ -1,0 +1,125 @@
+:root {
+  --color-primario-home: rgb(180, 139, 219);
+  --color-primario: rgb(208, 196, 219);
+  --color-titulos: rgb(41, 16, 85);
+  --color-dotted: rgb(62, 33, 113);
+  --color-lik-login-signup: rgb(62, 126, 247);
+  --color-blur-input: rgb(152, 186, 249);
+  --color-blanco: rgb(235, 223, 245);
+  --color-span: rgb(179, 110, 243);
+  --color-hr: rgb(191, 188, 194);
+}
+.userInMeeting-container {
+  min-height: 100vh;
+  background-color: var(--color-primario);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.userInMeeting-container p {
+  width: 100%;
+  color: var(--color-titulos);
+  margin: 0 2rem;
+}
+.userInMeeting-container .label-container {
+  margin-top: 2rem;
+}
+.label-container span {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: thin solid var(--color-span);
+  border-radius: 50%;
+  color: var(--color-span);
+}
+.userInMeeting-container .label-container label {
+  width: 100%;
+  text-align: left;
+  color: var(--color-titulos);
+}
+.select-schedules {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 1rem;*/
+}
+.select-schedules button {
+  width: 100%;
+  margin: 1.5rem 0 3rem 0;
+}
+.select-schedules small {
+  width: 100%;
+  display: block;
+  text-align: left;
+  margin-top: 1rem;
+}
+.div-available-hours {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+.select-schedules h4 {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-titulos);
+}
+.data-reunion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.data-reunion p {
+  margin-bottom: 0;
+  text-align: center;
+}
+.data-reunion b {
+  color: var(--color-lik-login-signup);
+}
+.hours .hour {
+  width: 20%;
+  color: var(--color-titulos);
+  /*
+  border-top: thin solid var(--color-titulos);
+  border-bottom: thin solid var(--color-titulos);
+  */
+}
+.div-available-hours .minutes {
+  width: 100%;
+  border-top: thin solid var(--color-titulos);
+}
+.minutes .min {
+  border-bottom: thin dotted var(--color-dotted);
+  height: 0.5rem;
+} 
+.userInMeeting-container .nombre {
+  margin: 1rem 0;
+}
+.form-desubicado p {
+  text-align: center;
+}
+.form-desubicado input::placeholder {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .userInMeeting-container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+@media screen and (min-width: 950px) {
+  .userInMeeting-container {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+}

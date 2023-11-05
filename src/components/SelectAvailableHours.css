@@ -1,0 +1,179 @@
+:root {
+  --color-primario: #E3DFFD;
+  --color-h1-input-text-btn: #ECF2FF;
+  --color-fondo-home: #BEADFA;
+  --color-text-color-input: #002147;
+  --color-negro-texto-inicio-border-select: #000000;
+  --color-link-login-signup-btn: #869CFF;
+  --color-blur-input: rgb(152, 186, 249);
+  --color-placeholder: #908F8F;
+  --color-span: #9874FF;
+  --color-icono: #222222;
+}
+.Schedules-Form {
+  width: 80%;
+}
+.Schedules-Form .createMeeting-span {
+  border: thin solid var(--color-span);
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--color-span);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+.Schedules-Form .column-day {
+  display: flex;
+}
+.Schedules-Form .column-schedule {
+  display: flex;
+  flex-direction: column;
+}
+.Schedules-Form .column-schedule p {
+  width: auto;
+}
+.Schedules-Form .column-schedule div{
+  width: 100%;
+  display: flex;
+}
+.Schedules-Form .column-schedule div div {
+  display: flex;
+}
+.Schedules-Form .column-schedule span {
+  width: 100%;
+  text-align: justify;
+  text-indent: 15%;
+  font-style: italic;
+}
+.Schedules-Form .checkbox {
+  width: 100%;
+  display: inline-flex;
+}
+.Schedules-Form .checkbox input {
+  width: 10%;
+}
+.Schedules-Form .checkbox input:focus {
+  box-shadow: none;
+}
+.Schedules-Form .column-schedule .div-schedule {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding: 0.5rem;
+}
+.Schedules-Form .day{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.Schedules-Form .duration-days input {
+  padding: 1.1rem;
+  width: 100%;
+}
+.Schedules-Form .duration-days input::placeholder, .duration-minutes select, .duration-days input {
+  text-align: center;
+}
+.duration .duration-minutes select {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-h1-input-text-btn);
+}
+.Schedules-Form .duration-minutes select:focus {
+  outline: none;
+   box-shadow: 0 -1px 5px var(--color-blur-input)inset, 0px -1px 5px var(--color-blur-input);
+}
+.Schedules-Form .duration .duration-days, .duration .duration-minutes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Schedules-Form .duration .duration-days label, .duration .duration-minutes label {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.Schedules-Form form .duration {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.Schedules-Form .icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.Schedules-Form .icons ion-icon, .trash ion-icon {
+  color: var(--color-icono);
+}
+.Schedules-Form .label-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+}
+.Schedules-Form .label-container label {
+  width: 100%;
+  text-align: left;
+}
+.Schedules-Form .schedule {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0.6rem 0;
+}
+.Schedules-Form .div-schedule p {
+  margin: 0 0.5rem;
+}
+.Schedules-Form .div-schedule select {
+  border: thin solid black;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.Schedules-Form .div-schedule select:focus {
+  outline: none;
+}
+.schedules-container {
+  width: 100%;
+}
+.Schedules-Form .schedules span {
+  color: var(--color-h1-input-text-btn);
+}
+.Schedules-Form .selects {
+  display: inline-flex;
+  margin: 1rem 0;
+}
+.Schedules-Form .selects select {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+.Schedules-Form .selects select:focus {
+  outline: none;
+  box-shadow: 0 -1px 5px var(--color-blur-input)inset, 0px -1px 5px var(--color-blur-input);
+}
+.Schedules-Form .selects span {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.Schedules-Form select option[disabled] {
+  /* Add your styling here */
+  color: #dddddd; /* Change text color to gray, for example */
+  background-color: #636363; /* Change background color to a light gray */
+  font-style: italic; /* Make the text italic, for example */
+  /* Add any other CSS properties you want to apply to the disabled option */
+}
+.column-schedule .trash {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+

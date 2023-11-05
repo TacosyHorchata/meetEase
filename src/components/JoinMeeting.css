@@ -1,0 +1,69 @@
+:root {
+  --color-primario: rgb(208, 196, 219);
+  --color-span: rgb(179, 110, 243);
+  --color-titulos: rgb(41, 16, 85);
+  --color-lik-login-signup: rgb(62, 126, 247);
+  --color-blur-input: rgb(152, 186, 249);
+  --color-blanco: rgb(235, 223, 245);
+  --color-hr: rgb(191, 188, 194);
+}
+.joinMeeting-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-primario);
+}
+.joinMeeting-inputs {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.joinMeeting-inputs button {
+  width: 100%;
+}
+.joinMeeting-inputs label {
+  text-align: start;
+  color: var(--color-lik-login-signup);
+  align-self: flex-start;
+}
+.joinMeeting-inputs input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+.joinMeeting-inputs input:focus {
+  outline: none;
+  box-shadow: 0 -1px 5px var(--color-blur-input)inset, 0px -1px 5px var(--color-blur-input);
+}
+.joinMeeting-inputs input::placeholder {
+  font-size: 1rem;
+  color: rgb(143, 158, 173);
+}
+.joinMeeting-inputs span {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-span);
+}
+
+@media screen and (min-width: 750px) {
+  .joinMeeting-container {
+    padding: 0 10rem;
+  }
+}
+@media screen and (min-width: 950px) {
+  .joinMeeting-container {
+    padding: 0 15rem;
+  }
+}

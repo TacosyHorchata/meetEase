@@ -1,0 +1,39 @@
+:root {
+  --color-primario-home-h1-input-text-btn: #ECF2FF;
+  --color-fondo-home: #BEADFA;
+  --color-text-color-input: #002147;
+  --color-negro-texto-inicio-border-select: #000000;
+  --color-link-login-signup-btn: #869CFF;
+  --color-blur-input: rgb(152, 186, 249);
+  --color-placeholder: #908F8F;
+  --color-span: #9874FF;
+  -color-icono: #222222;
+}
+
+nav a {
+  color: var(--color-primario-home-h1-input-text-btn);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-links {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  background-color: transparent;
+}
+.logo {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  gap: 1rem;
+}

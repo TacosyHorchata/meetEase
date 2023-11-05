@@ -1,0 +1,95 @@
+:root {
+  --color-primario: #E3DFFD;
+  --color-h1-input-text-btn: #ECF2FF;
+  --color-fondo-home: #BEADFA;
+  --color-text-color-input: #002147;
+  --color-negro-texto-inicio-border-select: #000000;
+  --color-link-login-signup-btn: #869CFF;
+  --color-blur-input: rgb(152, 186, 249);
+  --color-placeholder: #908F8F;
+  --color-span: #9874FF;
+  -color-icono: #222222;
+}
+
+button {
+  border: none;
+  border-radius: 0.3rem;
+  width: 80%;
+  padding: 1rem 0;
+  color: var(--color-h1-input-text-btn);
+  font-size: 1rem;
+  background-color: var(--color-link-login-signup-btn);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+form input {
+  width: 80%;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background-color: var(--color-primario-home-h1-input-text-btn);
+}
+form input:focus {
+  outline: none;
+  box-shadow: 1px 1px 1px var(--color-primario);
+   box-shadow: 0 -1px 5px var(--color-blur-input)inset, 0px -1px 5px var(--color-blur-input);
+}
+form label, form p {
+  text-align: justify;
+  width: 80%;
+  font-size: 1.2rem;
+  color: var(--color-text-color-input);
+}
+h1 {
+  color: var(--color-text-color-input);
+  margin: 2rem;
+  font-size: 1.8rem;
+}
+ion-icon {
+  color: var(--color-placeholder);
+}
+input::placeholder{
+  font-size: 1rem;
+  color: var(--color-placeholder);
+}
+/* Icono visibles o invisibles*/
+.input-field {
+  width: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.input-field span {
+  position: absolute;
+  padding-right: 0.5rem;
+  line-height: 1px;
+}
+.login-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-primario);
+  min-height: 100vh;
+}
+.login-component h1{
+  margin-top: 5rem;
+}
+.lik-loginSignup {
+  width: 80%;
+  text-align: center;
+}
+.lik-loginSignup a, .terminos-condiciones a {
+  color: var(--color-lik-login-signup);
+  text-decoration: none;
+} 
+.password{
+  width: 100%;
+}

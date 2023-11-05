@@ -1,0 +1,79 @@
+:root {
+  --color-primario: #E3DFFD;
+  --color-h1-input-text-btn: #ECF2FF;
+  --color-fondo-home: #BEADFA;
+  --color-text-color-input: #002147;
+  --color-negro-texto-inicio-border-select: #000000;
+  --color-link-login-signup-btn: #869CFF;
+  --color-blur-input: rgb(152, 186, 249);
+  --color-placeholder: #908F8F;
+  --color-span: #9874FF;
+  --color-icono: #222222;
+}
+.meeting-final-container {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  background-color: var(--color-primario);
+}
+.meeting-final-container a {
+  text-decoration: none;
+  color: var(--color-blanco);
+  width: 100%;
+}
+.meeting-final-container a button {
+  margin-top: 1rem;
+}
+.meeting-final-container h1 {
+  color: var(--color-negro-texto-inicio-border-select);
+}
+.meeting-final-container p {
+  color: var(--color-titulos);
+  font-size: 1.1rem;
+}
+/* Define a CSS class for your styled table */
+.styled-table {
+    width: 80vw;
+    margin-right: 4vw;
+    margin-top: 3rem;
+    max-width: 500px;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  .styled-table td {
+    font-size: 0.6rem;
+    border: 2px solid var(--color-icono);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Style the header row differently */
+  .styled-table thead tr {
+    color: var(--color-h1-input-text-btn);
+    font-weight: bold;
+  }
+.styled-table th, .styled-table td {
+  color: var(--color-negro-texto-inicio-border-select);
+}
+
+  .styled-table .empty-cell{
+    width: .6rem;
+    background-color: transparent;
+    border: 0px solid white;
+    transform: translateY(-1.8em);
+
+  }
+  
+  @media screen and (min-width: 780px) {
+  .meeting-final-container {
+    padding: 10rem;
+  }
+  .meeting-final-container a {
+    max-width: 50%;
+  }
+}
